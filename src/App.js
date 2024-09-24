@@ -30,7 +30,7 @@ function App() {
           <h3>Count Movies and TV Shows by Director</h3>
           <button
             className="btn btn-primary"
-            onClick={() => fetchData('https://netflix-cleaning.onrender.com/count_movies_tvshows_by_director', setResult1)}
+            onClick={() => fetchData('https://netflix-cleaning.xanderco.in/count_movies_tvshows_by_director', setResult1)}
           >
             Get Results
           </button>
@@ -40,7 +40,7 @@ function App() {
           <h3>Country with Highest Comedy Movies</h3>
           <button
             className="btn btn-primary"
-            onClick={() => fetchData('https://netflix-cleaning.onrender.com/country_with_highest_comedy_movies', setResult2)}
+            onClick={() => fetchData('https://netflix-cleaning.xanderco.in/country_with_highest_comedy_movies', setResult2)}
           >
             Get Results
           </button>
@@ -52,7 +52,7 @@ function App() {
           <h3>Max Movies by Director Per Year</h3>
           <button
             className="btn btn-primary"
-            onClick={() => fetchData('https://netflix-cleaning.onrender.com/max_movies_by_director_per_year', setResult3)}
+            onClick={() => fetchData('https://netflix-cleaning.xanderco.in/max_movies_by_director_per_year', setResult3)}
           >
             Get Results
           </button>
@@ -62,7 +62,7 @@ function App() {
           <h3>Average Duration per Genre</h3>
           <button
             className="btn btn-primary"
-            onClick={() => fetchData('https://netflix-cleaning.onrender.com/average_duration_per_genre', setResult4)}
+            onClick={() => fetchData('https://netflix-cleaning.xanderco.in/average_duration_per_genre', setResult4)}
           >
             Get Results
           </button>
@@ -74,7 +74,7 @@ function App() {
           <h3>Directors with Both Horror and Comedy Movies</h3>
           <button
             className="btn btn-primary"
-            onClick={() => fetchData('https://netflix-cleaning.onrender.com/directors_horror_comedy_movies', setResult5)}
+            onClick={() => fetchData('https://netflix-cleaning.xanderco.in/directors_horror_comedy_movies', setResult5)}
           >
             Get Results
           </button>
